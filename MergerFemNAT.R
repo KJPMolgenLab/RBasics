@@ -1,4 +1,4 @@
-## Code Merger für femNAT DAten 
+## Code Merger fÃ¼r femNAT DAten 
 
 
 
@@ -6,7 +6,7 @@
 ### setwd("S:/KJP_Biolabor/Projekte/FemNAT-CD/EpiGenetik/Phenotypes/export_4_ac_20181206/Tomerge/") AGC opt
 #setwd("~/Downloads/99_femnat") # Mimis PC
 
-options(stringsAsFactors = F) ### verhindert dass Wörter als Faktor gespeichert werden 
+options(stringsAsFactors = F) ### verhindert dass WÃ¶rter als Faktor gespeichert werden 
 
 library(readr)
 
@@ -18,7 +18,7 @@ MHCS <- read.csv("MHCS.csv", fileEncoding = "WINDOWS-1252")
 
 ############ data selection 
 
-### alle möglichen IDS: 
+### alle mÃ¶glichen IDS: 
 alltwuid=unique(c(CDCURRSYMPT$twuid,KCIG_TRANSP$twuid,KPTSD1_TRANSP$twuid,KPTSDAD_TRANSP$twuid, MHCS$twuid))
 
 CDCURRSYMPT=CDCURRSYMPT[CDCURRSYMPT$tt==1,]
