@@ -4,7 +4,7 @@
 
 
 ## Arbeitsplatz festlegen
-setwd("S:/KJP_Biolabor/Projekte/FemNAT-CD/EpiGenetik/Phenotypes/export_4_ac_20181206/Tomerge/")
+### setwd("S:/KJP_Biolabor/Projekte/FemNAT-CD/EpiGenetik/Phenotypes/export_4_ac_20181206/Tomerge/") AGC opt
 #
 
 options(stringsAsFactors = F) ### verhindert dass Wörter als Faktor gespeichert werden 
